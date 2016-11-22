@@ -33,4 +33,8 @@ body {
      * to improve page load speed on mobile internet connections */
     background-image: url(images/spine3-small.jpg);
   }
-	}
+}
+
+div#hidden {
+  visibility: hidden;
+}  

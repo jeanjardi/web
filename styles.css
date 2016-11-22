@@ -4,7 +4,6 @@ p{margin:0 10px 10px}
 a{ text-decoration:none; color:white; }
 a:hover{ font-weight:bold; color:#c3d6aa ; background-color: #283a10;}
 
-
 div#header{background-color:black;}
 div#header h1{height:50px;line-height:50px;margin:0;padding-left:10px; padding-bottom:20px; color: darkgrey;}
 div#header h6{height:50px;line-height:50px;margin:0;padding-right:10px;float:right;width:200px}
@@ -21,6 +20,7 @@ div#content{float:left;width:400px}
 div#navigation{float:right;}
 div#extra{float:right;clear:right;}
 div#footer{clear:both;width:100%}
+div#hidden{ visibility: hidden; }
 
 .alignleft {
 	float: left;
@@ -29,9 +29,3 @@ div#footer{clear:both;width:100%}
 	float: right;
   margin:10px 10px 10px
 }
-
-.clair	{#eaf7d9;}
-.pale	{#c3d6aa;}
-.moyen	{#8ea86c;}
-.foncer	{#4d642d;}
-.noiratre {#283a10;}
